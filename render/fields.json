@@ -1,0 +1,75 @@
+{
+ "run": {
+  "title": "MPAS 3.75 km global, DYAMOND2",
+  "mesh": "x1.41943042.grid.nc",
+  "cells": 41943042,
+  "source": "Judt, F. (2026). MPAS Global Storm-Resolving Model Simulations for the DYAMOND Intercomparison [Dataset]. NSF NCAR.",
+  "doi": "10.5065/MWEE-Y657"
+ },
+ "times": [
+  "2020-01-28_00.00.00",
+  "2020-01-28_01.00.00",
+  "2020-01-28_02.00.00",
+  "2020-01-28_03.00.00",
+  "2020-01-28_04.00.00",
+  "2020-01-28_05.00.00",
+  "2020-01-28_06.00.00",
+  "2020-01-28_07.00.00",
+  "2020-01-28_08.00.00",
+  "2020-01-28_09.00.00",
+  "2020-01-28_10.00.00",
+  "2020-01-28_11.00.00",
+  "2020-01-28_12.00.00",
+  "2020-01-28_13.00.00",
+  "2020-01-28_14.00.00",
+  "2020-01-28_15.00.00",
+  "2020-01-28_16.00.00",
+  "2020-01-28_17.00.00",
+  "2020-01-28_18.00.00",
+  "2020-01-28_19.00.00"
+ ],
+ "fields": [
+  {
+   "name": "olrtoa",
+   "cmap": "Greys",
+   "vmin": 100,
+   "vmax": 300,
+   "maxzoom": 4
+  },
+  {
+   "name": "precipw",
+   "cmap": "YlGnBu",
+   "vmin": 0,
+   "vmax": 60,
+   "maxzoom": 3
+  },
+  {
+   "name": "refl10cm_1km",
+   "cmap": "turbo",
+   "vmin": 5,
+   "vmax": 60,
+   "maxzoom": 3
+  },
+  {
+   "name": "t2m",
+   "cmap": "RdYlBu_r",
+   "vmin": 230,
+   "vmax": 310,
+   "maxzoom": 3
+  },
+  {
+   "name": "mslp",
+   "cmap": "viridis",
+   "vmin": 97000,
+   "vmax": 104000,
+   "maxzoom": 3
+  },
+  {
+   "name": "uzonal_200hPa",
+   "cmap": "PuOr_r",
+   "vmin": -60,
+   "vmax": 60,
+   "maxzoom": 3
+  }
+ ]
+}
